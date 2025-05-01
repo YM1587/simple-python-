@@ -7,7 +7,8 @@ def update_message():
 app = App(title="Hello App")
 
 message = Text(app, text="Welcome to the app")
-name_input = TextBox(app, width=30, placeholder="Enter your name")
+label = Text(app, text="Enter your name:")
+name_input = TextBox(app, width=30)
 button = PushButton(app, command=update_message, text="Greet Me")
 
 app.display()
