@@ -1,4 +1,4 @@
-from guizero import App,Text
+from guizero import App,text
 app=App(title="Hello world")
-message = Text(app,Text="Welcome to the app")
+message = text(app,Text="Welcome to the app")
 app.display()
